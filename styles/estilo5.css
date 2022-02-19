@@ -1,0 +1,156 @@
+#home {
+	background: #fff;
+	color: black;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.transp img {
+	opacity: 1;
+}
+
+.transp img:hover {
+	opacity: 0.7;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#recentes {
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 2em;
+	color: #008080;
+}
+
+#autor {
+	display: block;
+	font-size: 10px;
+	color: #808080;
+}
+
+#autor img {
+	border-radius: 50%;
+}
+
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.zoom img {
+	transition: all 0.3s;
+
+
+}
+
+.zoom:hover img {
+	transform: scale(1.1);
+}
+
+h4 {
+	font-family: 'Spartan';
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-top: 17px;
+	color: #696969;
+	text-align: center;
+}
+
+#duracao {
+	font-size: 15px;
+	color: #20B2AA;
+	text-align: center;
+	width: 50%;
+	float: left;
+}
+
+#cart {
+	width: 50%;
+	float: right;
+	border: 2px solid #ddd;
+	text-align: center;
+	height: 29px;
+}
+
+#cart a {
+	color: inherit;
+}
+
+#cart:hover {
+	background: black;
+	color: white;
+}
+
+ul.teste {
+	padding: 0;
+	margin: 0;
+
+}
+
+ul.teste li {
+	display: inline;
+}
+
+ul.teste li a {
+	background-color: white;
+	margin-right: 10px;
+	font-size: 17px;
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+
+}
+
+ul.teste a:hover {
+	background-color: black;
+	color: white;
+
+}
+
+#pagina {
+	display: flex;
+	justify-content: center;
+
+}
+
+#texto {
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#titulo {
+	padding-left: 30px;
+	padding-bottom: 20px;
+	font-family: "Spartan"
+		letter-spacing: 1px;
+	font-size: 30px;
+}
+
+.produtos {
+	font-size: 2em;
+	color: #79baa7;
+	font-family: "Spartan";
+	font-weight: 500px;
+	line-height: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#fig1 img {
+	width: 300px;
+	height: 300px;
+}
+
+#preco {
+	width: 300px;
+}

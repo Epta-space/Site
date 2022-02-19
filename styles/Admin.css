@@ -1,0 +1,29 @@
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+p {
+	margin: 20px 0;
+	font-size: 30px;
+	margin-left: 200px;
+}
+
+form {
+	margin: 20px 0;
+	margin-left: 200px;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+}
+
+form input {
+	display: block;
+	margin: 10px 0;
+}
+
+.radio{
+	margin-left: 200px;
+}

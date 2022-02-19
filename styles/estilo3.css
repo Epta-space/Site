@@ -1,0 +1,26 @@
+.dividir {
+	text-align: center;
+	padding: 10px 15px 20px;
+
+}
+
+.centro {
+	text-align: center
+}
+
+.areas img {
+	display: inline-block;
+	align-content: left;
+}
+
+.divisao {
+	padding: 10px 40px 20px;
+}
+
+.divisao img p {
+	display: inline-block;
+}
+
+.test {
+	width: 100%;
+}

@@ -1,0 +1,188 @@
+footer p a {
+	margin: 5px 15px;
+}
+
+.caixa {
+	padding: 30px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.transp img {
+	opacity: 1;
+}
+
+.transp img:hover {
+	opacity: 0.7;
+
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#relacionados {
+	line-height: 1.2em;
+	font-size: 1.5em;
+	color: #008080;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#autor {
+	display: block;
+	font-size: 10px;
+	color: #808080;
+}
+
+#autor img {
+	border-radius: 50%;
+}
+
+.zoom {
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.zoom img {
+	transition: all 0.3s;
+
+
+}
+
+.zoom:hover img {
+	transform: scale(1.1);
+}
+
+h4 {
+	padding-top: 7px;
+}
+
+#titulo {
+	line-height: 1.2em;
+	font-size: 1.4em;
+	margin: auto;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	color: #fff;
+}
+
+
+.sobrepor-titulo {
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#texto {
+	position: relative;
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+#texto img {
+	height: auto;
+}
+
+#resumo {
+	padding-top: 20px;
+	margin: auto;
+	font-weight: bold;
+	text-align: justify;
+	font-size: 13px;
+}
+
+#autor {
+	margin: auto;
+	padding-top: 10px;
+	font-size: 10px;
+}
+
+#materia {
+	padding-top: 30px;
+	margin: auto;
+	font-size: 17px;
+	line-height: 29px;
+	color: #333;
+	letter-spacing: 0.1px;
+	text-align: justify;
+}
+
+p {
+	text-indent: 30px;
+
+}
+
+.nome {
+	padding-left: 60px;
+	color: #c0272d;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.imagem img {
+	border-radius: 50%;
+	width: 100px;
+}
+
+
+h2 {
+	font-size: 25px;
+}
+
+@media (min-width: 280px) and (max-width: 768px) {
+	#texto img {
+		height: auto;
+	}
+
+	#titulo {
+		font-size: 1em;
+	}
+
+	#resumo {
+		font-size: 11px;
+	}
+
+}
+
+@media (min-width: 1600px) {
+	#texto img {
+		height: auto;
+	}
+}
+
+@media (max-width: 320px) {
+	#titulo {
+		font-size: 0.8em;
+	}
+
+	#materia {
+		font-size: 15px;
+	}
+
+	#resumo {
+		font-size: 10px;
+	}
+
+	#autor {
+		font-size: 9px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	#relacionados {
+		font-size: 1.2em;
+
+	}
+
+}
+
+#min {
+	width: 100%;
+}
