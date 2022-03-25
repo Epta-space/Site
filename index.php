@@ -1,5 +1,5 @@
 <?php
-include_once '../connections/database.php';
+include_once './connections/database.php';
 //   $request = $_SERVER['REQUEST_URI'];
 
 //   switch ($request) {
@@ -29,7 +29,7 @@ include_once '../connections/database.php';
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="../styles/estilo.css">
+  <link rel="stylesheet" type="text/css" href="./styles/estilo.css">
 
   <title>EPTA</title>
 </head>
@@ -49,19 +49,19 @@ include_once '../connections/database.php';
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="index.php" class="nav-link">Home | </a>
+              <a href="./pages/index.php" class="nav-link">Home | </a>
             </li>
             <li class="nav-item">
-              <a href="blog.php" class="nav-link">Blog | </a>
+              <a href="./pages/blog.php" class="nav-link">Blog | </a>
             </li>
             <li class="nav-item">
-              <a href="cursos.php" class="nav-link">Cursos | </a>
+              <a href="./pages/cursos.php" class="nav-link">Cursos | </a>
             </li>
             <li class="nav-item">
-              <a href="projetos.php" class="nav-link">Projetos | </a>
+              <a href="./pages/projetos.php" class="nav-link">Projetos | </a>
             </li>
             <li class="nav-item">
-              <a href="quemSomos.php" class="nav-link">Quem Somos </a>
+              <a href="./pages/quemSomos.php" class="nav-link">Quem Somos </a>
             </li>
             <!-- <li class="nav-item">
                 <a href="loja.php" class="nav-link">Loja </a>
@@ -204,11 +204,11 @@ include_once '../connections/database.php';
       <div class="row">
         <div class="col-md-8">
           <p>
-            <a href="index.php">Home</a>
-            <a href="blog.php">Blog</a>
-            <a href="projetos.php">Projetos</a>
-            <a href="cursos.php">Cursos</a>
-            <a href="quemSomos.php">Quem Somos</a>
+            <a href="./pages/index.php">Home</a>
+            <a href="./pages/blog.php">Blog</a>
+            <a href="./pages/projetos.php">Projetos</a>
+            <a href="./pages/cursos.php">Cursos</a>
+            <a href="./pages/quemSomos.php">Quem Somos</a>
           </p>
         </div>
         <div class="col-md-4 d-flex justify-content-end">

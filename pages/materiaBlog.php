@@ -32,7 +32,7 @@ include_once '../connections/database.php'
         <div class="collapse navbar-collapse" id="nav-principal">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a href="index.php" class="nav-link">Home | </a>
+              <a href="../index.php" class="nav-link">Home | </a>
             </li>
             <li class="nav-item">
               <a href="blog.php" class="nav-link">Blog | </a>
@@ -155,7 +155,7 @@ include_once '../connections/database.php'
       <div class="row">
         <div class="col-md-8">
           <p>
-            <a href="index.php">Home</a>
+            <a href="../index.php">Home</a>
             <a href="blog.php">Blog</a>
             <a href="projetos.php">Projetos</a>
             <a href="cursos.php">Cursos</a>
